@@ -7,16 +7,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f398ff;;
+    color: #ffffff;;
     height: 100vh;
 }
 
 .container {
-    background-color: #000000e3;
-    border: 2px solid #a500bb;
+    background-color: #00011fc5;
+    border: 2px solid #0300bb;
     width: 350px;
     height: 510px;
-    max-height: 600px;
     border-radius: 5px;
 }
     
@@ -36,19 +35,26 @@ body {
     font-size: 100px;
 }
 
+.output {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom:2px;
+    color: #ffffff;
+}
+
 #save-el {
+    font-size: small;
     margin: auto;
-    color: #9200a5;
-    margin-top: 20px;
+    color: #000000;
     margin-bottom: 10px;
     padding: 5px;
     background-color: #ffffff;
-    width: 100px;
+    width: 170px;
     height: 50px;
-    max-width: 250px;
     max-height: 100px;
+    overflow-y: auto;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 button {
